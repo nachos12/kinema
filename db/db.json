@@ -1,0 +1,56 @@
+{
+    "films": [{
+        "idFilm": 1,
+        "titre": "Les Eternels",
+        "duree": 157,
+        "resume": "Depuis l’aube de l’humanité, les Éternels, un groupe de héros venus des confins de l’univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l’on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l’humanité…"
+    }, {
+        "idFilm": 2,
+        "titre": "EIFFEL",
+        "duree": 110,
+        "resume": "Venant tout juste de terminer sa collaboration sur la Statue de la Liberté, Gustave Eiffel est au sommet de sa carrière. Le gouvernement français veut qu’il crée quelque chose de spectaculaire pour l’Exposition Universelle de 1889 à Paris, mais Eiffel ne s’intéresse qu’au projet de métropolitain. Tout bascule lorsqu'il recroise son amour de jeunesse. Leur relation interdite l’inspire à changer l’horizon de Paris pour toujours."
+    }],
+    "reservations": [{
+            "idReservation": 1,
+            "idFilm": 1,
+            "horaire": "14h"
+        },
+        {
+            "idReservation": 2,
+            "idFilm": 1,
+            "horaire": "18h"
+        },
+        {
+            "idReservation": 3,
+            "idFilm": 3,
+            "horaire": "14h"
+        }
+    ],
+    "salles": [{
+            "idSalle": 1,
+            "nbPlace": 150
+        },
+        {
+            "id": 2,
+            "nbPlace": 80
+        }
+    ],
+    "clients": [{
+            "name": "Michel Trabendo",
+            "username": "Samantha",
+            "email": "m.trabendo@gmail.com",
+            "phone": "0784560877",
+            "website": "",
+            "idClient": 1
+        },
+        {
+            "name": "Patricia",
+            "username": "Karianne",
+            "email": "Julianne.OConner@kory.org",
+            "phone": "493-170-9623 x156",
+            "website": "kale.biz",
+            "idClient": 2
+        }
+
+    ]
+}
